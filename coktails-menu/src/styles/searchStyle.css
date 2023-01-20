@@ -1,0 +1,49 @@
+.container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+
+}
+
+.inp {
+    width: 400px;
+    height: 35px;
+    outline: none;
+    border: 4px solid rgba(0, 0, 255, 0.297);
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.inp:hover {
+    border: 4px solid rgba(0, 0, 255, 0.434);
+}
+
+.label-search {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.serach-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.6);
+    width: 600px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.title-search {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.737);
+}

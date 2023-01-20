@@ -1,0 +1,65 @@
+
+.loading-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 150px;
+}
+
+.bloc-one, .bloc-two, .bloc-three{
+    margin-right: 60px;
+    background-color: rgba(0, 128, 0, 0.669);
+    display: block;
+    justify-content: center;
+}
+
+.bloc-one {
+    width: 80px;
+    height: 300px;
+    animation: keymLoadingone 0.35s infinite linear alternate ;
+}
+
+.bloc-two {    
+    width: 80px;
+    height: 250px;
+    animation: keymLoadingTwo 0.34s infinite linear alternate 
+}
+
+.bloc-three {
+    width: 80px;
+    height: 150px;
+    animation: keymLoadingThree 0.33s alternate infinite linear; 
+}
+
+.bloc-foor {
+    width: 80px;
+    height: 320px;
+    /* animation: keymLoadingfoor 0.3s alternate infinite linear; */
+}
+
+@keyframes keymLoadingone {
+
+    0% {max-height: 300px;}
+    50%{height: 175px;}
+    100% {height: 0;}
+}
+
+@keyframes keymLoadingTwo {
+    0% {height: 230px;}
+    50% {height: 145px;}
+    100% {height: 0px;}
+}
+
+@keyframes keymLoadingThree {
+    0% {height: 190px;}
+    50% {height: 110px;}
+    100% {height: 0px;}
+}
+
+/* @keyframes keymLoadingfoor {
+
+    0% {height: 220px;}
+    50%{height: 110px;}
+    100% {height: 0px;}
+} */
